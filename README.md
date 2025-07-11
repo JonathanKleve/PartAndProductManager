@@ -60,17 +60,17 @@ Before you begin, ensure you have the following installed:
 
 Git: For cloning the repository.
 
-[Download Git(https://git-scm.com/downloads)]
+[Download Git](https://git-scm.com/downloads)
 
 Java Development Kit (JDK): 17
 
-[Download JDK(https://www.oracle.com/java/technologies/downloads/)] or [OpenJDK(https://openjdk.java.net/install/)]
+[Download JDK](https://www.oracle.com/java/technologies/downloads/) or [OpenJDK](https://openjdk.java.net/install/)
 
 MySQL Server: MySQL 8.0
 
 MySQL Client/Workbench (Optional but Recommended): For managing your database.
 
-[MySQL Workbench(https://dev.mysql.com/downloads/workbench/)]
+[MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 Installation
 Clone the repository:
@@ -82,21 +82,15 @@ Database Setup:
 
 Start your MySQL server.
 
-Open your MySQL client (e.g., MySQL Workbench or command line).
+Open MySQL Workbench (or your preferred MySQL client).
 
-Create a new database for the project. For example:
+Manually create a new database for the project (e.g., part_product_db).
 
-CREATE DATABASE part_product_db;
-USE part_product_db;
-
-Execute the SQL schema script to create the necessary tables. You will need to locate this script within the cloned repository. (e.g., src/main/resources/schema.sql or similar).
-
--- Example: Assuming your schema is in a file named schema.sql
--- SOURCE path/to/your/schema.sql;
+Manually create the necessary tables within this database. Refer to your project's technical documentation for the required table structure (e.g., Part table, Product table, Product_Part association table).
 
 Configure Database Connection:
 
-Locate the database configuration file in the project (e.g., src/main/java/kleve/PartAndProductManager/DAO/JDBC.java).
+Locate the database connection configuration in the project (e.g., src/main/java/kleve/PartAndProductManager/DAO/JDBC.java).
 
 Update the database connection details (username, password, database name, host) to match your local MySQL setup.
 
@@ -121,24 +115,24 @@ From IntelliJ IDEA, right-click on your main class (e.g., Main.java) and select 
 
 From the command line (after building): java -jar [your-java-jar-file-name].jar (e.g., java -jar PartAndProductManager.jar)
 
-For more user instructions, see the [Design, Testing and User Documentation write-up(docs/Design%2C%20Testing%2C%20and%20User%20Documentation.docx)]
+For more user instructions, see the [Design, Testing and User Documentation write-up](docs/Design%2C%20Testing%2C%20and%20User%20Documentation.docx)
 
 Project Documentation
 This project is accompanied by comprehensive documentation detailing its design, testing, and usage. These documents provide deeper insights into the project's architecture and development process.
 
 Diagrams:
 
-[Link to UI Diagram (docs/UI%20Diagram.png)]
+[Link to UI Diagram](docs/UI%20Diagram.png)
 
-[Link to UML Diagram (docs/UML%20Diagram.png)]
+[Link to UML Diagram](docs/UML%20Diagram.png)
 
 Project Write-ups:
 
 Project Plan and Requirements: This document outlines the business problem, customer, business case, SDLC methodology, deliverables, implementation strategy, validation, environments, costs, and human resource requirements.
-[Link to Project Plan and Requirements (docs/Project%20Plan%20and%20Requirements.docx)]
+[Link to Project Plan and Requirements](docs/Project%20Plan%20and%20Requirements.docx)
 
 Design, Testing, and User Documentation: This comprehensive document includes the Class Design, UI Design, Unit Test Plan and Results, Developer & Maintenance Guide, and User Manual.
-[Link to Project Plan and Requirements (docs/Design%2C%20Testing%2C%20and%20User%20Documentation.docx)]
+[Link to Project Plan and Requirements](docs/Design%2C%20Testing%2C%20and%20User%20Documentation.docx)
 
 Contributing
 As a personal portfolio project, direct contributions are not actively sought. However, if you find any issues or have suggestions, feel free to open an issue on this repository.
