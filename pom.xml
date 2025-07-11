@@ -7,7 +7,7 @@
     <groupId>kleve</groupId>
     <artifactId>PartAndProductManager</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>TestTwo</name>
+    <name>PartAndProductManager</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,11 +38,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>kleve</groupId>
-            <artifactId>TestTwo</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <build>
@@ -65,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>kleve.testtwo/kleve.testtwo.HelloApplication</mainClass>
+                            <mainClass>kleve.testtwo/kleve.PartAndProductManager.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
