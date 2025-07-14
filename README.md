@@ -55,11 +55,9 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 * Clone the repository:
-  * ```
-git clone https://github.com/JonathanKleve/PartAndProductManager.git
-
-cd PartAndProductManager
-```
+  * ``` git clone https://github.com/JonathanKleve/PartAndProductManager.git
+  cd PartAndProductManager
+  ```
 
 * Database Setup:
 
