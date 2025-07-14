@@ -61,7 +61,7 @@ Follow these instructions to get a copy of the project up and running on your lo
   cd PartAndProductManager
   ```
 
-* Database Setup:
+### Database Setup:
 
 * Start your MySQL server.
 
