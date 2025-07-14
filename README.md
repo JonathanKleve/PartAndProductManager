@@ -28,17 +28,17 @@ This project serves as a demonstration of core software development principles, 
 * Reporting: Generate a few pre-programmed reports for inventory analysis.
 
 ## Technologies Used
-### Programming Languages: Java 17
+* Programming Languages: Java 17
 
-### Database: MySQL 8.0
+* Database: MySQL 8.0
 
-### Development Environment: IntelliJ IDEA CE
+* Development Environment: IntelliJ IDEA CE
 
-### Version Control: Git
+* Version Control: Git
 
-### Database Management Tool: MySQL Workbench 8.0
+* Database Management Tool: MySQL Workbench 8.0
 
-### Database Connector: MySQL Connector/J 9.1.0
+* Database Connector: MySQL Connector/J 9.1.0
 
 ## Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
