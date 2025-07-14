@@ -112,10 +112,10 @@ This project is accompanied by comprehensive documentation detailing its design,
 ### Project Write-ups:
 
 * Project Plan and Requirements: This document outlines the business problem, customer, business case, SDLC methodology, deliverables, implementation strategy, validation, environments, costs, and human resource requirements.
-[Link to Project Plan and Requirements](docs/Project%20Plan%20and%20Requirements.docx)
+[Link to Project Plan and Requirements](docs/Project%20Plan%20and%20Requirements.pdf)
 
 * Design, Testing, and User Documentation: This comprehensive document includes the Class Design, UI Design, Unit Test Plan and Results, Developer & Maintenance Guide, and User Manual.
-[Link to Project Plan and Requirements](docs/Design%2C%20Testing%2C%20and%20User%20Documentation.docx)
+[Link to Project Plan and Requirements](docs/Design%2C%20Testing%2C%20and%20User%20Documentation.pdf)
 
 ## Contributing
 As a personal portfolio project, direct contributions are not actively sought. However, if you find any issues or have suggestions, feel free to open an issue on this repository.
