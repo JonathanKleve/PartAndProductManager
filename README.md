@@ -124,5 +124,7 @@ As a personal portfolio project, direct contributions are not actively sought. H
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
+
 Jonathan Kleve
+
 Email: 194426067+JonathanKleve@users.noreply.github.com
